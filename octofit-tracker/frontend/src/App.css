@@ -1,0 +1,131 @@
+/* Octofit Tracker Custom Styles */
+
+.App {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  color: #2c3e50;
+}
+
+.navbar {
+  background-color: #34495e !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #ecf0f1 !important;
+}
+
+.navbar-nav .nav-link {
+  color: #bdc3c7 !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #3498db !important;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.display-4 {
+  color: #34495e;
+  font-weight: 700;
+}
+
+.lead {
+  color: #7f8c8d;
+}
+
+.table {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.table thead th {
+  background-color: #3498db !important;
+  color: white !important;
+  border: none;
+  font-weight: 600;
+}
+
+.table tbody tr:hover {
+  background-color: #ecf0f1;
+}
+
+.btn {
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #27ae60;
+  border-color: #27ae60;
+}
+
+.btn-primary:hover {
+  background-color: #229954;
+  border-color: #229954;
+  transform: translateY(-2px);
+}
+
+.alert {
+  border-radius: 8px;
+  border: none;
+}
+
+.alert-danger {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.spinner-border {
+  color: #3498db;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    margin: 10px;
+    padding: 15px;
+  }
+  
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
+/* Remove old create-react-app styles */
+.App-logo,
+.App-header,
+.App-link {
+  display: none;
+}
+
+@keyframes App-logo-spin {
+  /* Keep for potential future use */
+}
